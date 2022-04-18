@@ -15,6 +15,22 @@
     </a>
   </li>
   {{/if}}
+  {{#if @custom.github}}
+    <li class="nav-github">
+      <a aria-label="Github" href="{{@custom.github}}" title="{{@custom.github}}" target="_blank">
+        <i class="icon icon-github" aria-hidden="true"></i>
+        <span>{{@custom.github}}</span>
+      </a>
+    </li>
+  {{/if}}
+  {{#if @custom.linkedin}}
+    <li class="nav-linkedin">
+      <a aria-label="Linkedin" href="{{@custom.linkedin}}" title="{{@custom.linkedin}}" target="_blank">
+        <i class="icon icon-linkedin" aria-hidden="true"></i>
+        <span>{{@custom.linkedin}}</span>
+      </a>
+    </li>
+  {{/if}}
   <li class="nav-search" style="display: none;">
     <a title="{{t "Search"}}">
       <i class="icon icon-search" aria-hidden="true"></i>

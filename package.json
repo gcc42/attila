@@ -80,6 +80,12 @@
       "darkmode_accent_color": {
         "type": "color",
         "default": "#ff6633"
+      },
+      "github": {
+        "type": "text"
+      },
+      "linkedin": {
+        "type": "text"
       }
     }
   },

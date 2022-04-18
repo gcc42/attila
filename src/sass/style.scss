@@ -3,7 +3,7 @@
    ========================================================================== */
 @import "normalize";
 @import "colors";
-@import "icons";
+@import "bs-icons";
 @import "fonts";
 @import "highlight";
 $breakpoint-large: 960px;
@@ -1634,7 +1634,9 @@ textarea {
 		}
 
 		&.nav-twitter,
-		&.nav-facebook {
+		&.nav-facebook,
+		&.nav-github,
+		&.nav-linkedin {
 			@media only screen and (max-width: $breakpoint-medium) {
 				display: none;
 			}
